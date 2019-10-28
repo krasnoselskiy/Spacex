@@ -14,4 +14,4 @@ app.use(
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => console.log(`Server is listen at http://localhost:${PORT}/graphql`));
+app.listen(PORT, () => console.log(`Server is available at http://localhost:${PORT}/graphql`));
