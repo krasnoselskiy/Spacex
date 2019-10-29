@@ -7,6 +7,12 @@ body {
   color: #fff;
 }
 
+.logo {
+  display: block;
+  margin: 50px auto;
+  max-width: 200px;
+}
+
 .color-marker {
   display: inline-block;
   width: 20px;

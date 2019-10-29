@@ -8,6 +8,8 @@ import Launch from './components/Launch';
 
 import './App.css';
 
+import logo from './logo.png';
+
 const client = new ApolloClient({
   uri: 'http://localhost:5000/graphql'
 })
@@ -16,6 +18,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div className="App">
+        <img className="logo" src={logo} alt="" />
         <BrowserRouter>
           <div className="container">
             <Route exact path="/" component={Launches} />
