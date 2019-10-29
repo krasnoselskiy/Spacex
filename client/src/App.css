@@ -13,6 +13,10 @@ body {
   max-width: 200px;
 }
 
+.list-group {
+  color: #333;
+}
+
 .color-marker {
   display: inline-block;
   width: 20px;
