@@ -1,9 +1,14 @@
-.App {
-  text-align: center;
+body {
+  background: #333;
+  color: $fff;
 }
 
-.App-logo {
-  height: 40vmin;
+.App {
+  color: #fff;
+}
+
+.card {
+  color: #333;
 }
 
 .App-header {
