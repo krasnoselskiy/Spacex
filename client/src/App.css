@@ -7,11 +7,18 @@ body {
   color: #fff;
 }
 
+.color-marker {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: -4px;
+}
+
 .text-success {
   color: green;
 }
 
-.text-danger {
+.bg-success {
   background: green;
 }
 
