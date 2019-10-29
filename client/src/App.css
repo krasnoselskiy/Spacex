@@ -7,6 +7,22 @@ body {
   color: #fff;
 }
 
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  background: green;
+}
+
+.bg-danger {
+  background: brown;
+}
+
+.text-danger {
+  color: brown;
+}
+
 .card {
   color: #333;
 }
